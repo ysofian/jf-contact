@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Workbench&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: rgb(238,227,199);
+}
+
+.title-font{
+    font-family: "Workbench", sans-serif;
+}
+
+.subtitle-font{
+    font-family: "Lato";
+    font-weight: 350;
+}
+
+.links{
+    background-color: rgb(43,98,162);
+    color: rgb(240,240,240);
+}
+
+img {
+    object-fit: contain !important;
+    width: 100%;
+  }
+
+.ReallySmall{
+    font-size: 0.6em;
+}
