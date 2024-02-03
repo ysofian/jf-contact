@@ -34,13 +34,13 @@ export default function App() {
 			<div className=" aspect-w-1 aspect-h-1">
 				<img
 					src="./img/logo.png"
-					className="object-cover object-center"
+					className="object-cover object-center py-3 m-3"
 				/>
 			</div>
 		</div>
 		<div className="text-center p-3">
 			<h1 className="text-4xl font-bold text-black title-font">Juragan Film Analog</h1>
-			<p className="text-lg mt-3 text-black subtitle-font">
+			<p className="mt-3 text-black subtitle-font">
 				The First Professional Wholesale Film Supplier in Indonesia
 			</p>
 		</div>
@@ -58,7 +58,7 @@ export default function App() {
 			})}
 		</div>
     <div className="footer text-center subtitle-font py-10">
-      <p className="text-xs"> admin@juraganalog.com | Jl. Bendungan Sutami No. 42 Malang | Glad You're Here!</p>
+      <p className="xxs"> admin@juraganalog.com | Jl. Bendungan Sutami No. 42 Malang | Glad You're Here!</p>
       <p className="ReallySmall py-1"> Juragan Film Analog, 2022-2024</p>
     </div>
 	</div>
